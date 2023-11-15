@@ -1,0 +1,155 @@
+.custom-a{
+    font-family: 'Outfit', sans-serif;
+    font-size: 34px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.custom-p{
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    color: #353A44;
+}
+
+
+
+
+
+
+#big_cart{
+    .main{
+        .left{
+            background: #F0F0FF;
+            padding: 50px 30px ;
+            border: 1px solid black;
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+            .content-img{
+                img{
+                border: 1px solid black;
+                border-radius: 20px;
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                -ms-border-radius: 20px;
+                -o-border-radius: 20px;
+                }
+             }
+             p{
+                font-family: 'Jost', sans-serif;
+                font-size: 14px;
+                color: #353A44;
+                span{
+                    background: #fff;
+                    border: 1px solid black;
+                    padding: 5px 10px;
+                    border-radius: 20px;
+                    -webkit-border-radius: 20px;
+                    -moz-border-radius: 20px;
+                    -ms-border-radius: 20px;
+                    -o-border-radius: 20px;
+                }
+             }
+             .low{
+                a{
+                    font-family: 'Jost', sans-serif;
+                    font-weight: 700;
+                    font-size: 15px;
+                    color: black;
+                    background: #fff;
+                    text-decoration: none;
+                    padding: 10px 30px;
+                    border: 1px solid black;
+                    border-radius: 20px;
+                    -webkit-border-radius: 20px;
+                    -moz-border-radius: 20px;
+                    -ms-border-radius: 20px;
+                    -o-border-radius: 20px;
+                }
+             }
+        }
+        .right{
+            position: relative;
+            background: #FFFACD;
+            padding: 20px 30px ;
+            border: 1px solid black;
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+            img{
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+            }
+            .right-tittle{
+                position: absolute;
+                top: -10%;
+                left: 6%;
+                background: #fff;
+                font-family: 'Outfit', sans-serif;
+                font-size: 20px;
+                font-weight: 800;
+                padding: 10px 10px;
+                border: 1px solid black;
+                border-radius: 20px;
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                -ms-border-radius: 20px;
+                -o-border-radius: 20px;
+             }
+             h4{
+                font-family: 'Outfit', sans-serif;
+                font-size: 18px;
+                font-weight: 700;
+             }
+             p{
+                font-family: 'Jost', sans-serif;
+                font-size: 14px;
+                color: #353A44;
+                margin-top: 10px;
+             }
+             .social{
+                i{
+                    font-size: 16px;
+                    color: #9336B4;
+                }
+             }
+        }
+    }
+}
+
+
+.new1{
+    position: relative;
+    top: -40%;
+    right: 0%;
+}
+
+.new1-content{
+    p{
+        i{
+            background: #fff;
+            font-size: 21px;
+            color: #4942E4;
+            padding: 5px 5px;
+            border: 1px solid black;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+        span{
+            margin-left: 10px;
+            font-size: 18px;
+            font-weight: 700;
+            font-family: 'Outfit', sans-serif;
+        }
+    }
+}

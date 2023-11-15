@@ -1,0 +1,92 @@
+footer{
+    position: relative;
+    background-color: #FFFACD;
+    padding: 100px 0px;
+    margin-top: 100px;
+    border-top: 1px solid black;
+    .right-title{
+        position: absolute;
+            top: -4%;
+            left: 45%;
+            background: #fff;
+            font-family: 'Outfit', sans-serif;
+            font-size: 20px;
+            font-weight: 800;
+            padding: 10px 10px;
+            border: 1px solid black;
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+    }
+    .right-title2{
+            position: absolute;
+            top: -4%;
+            right: 25%;
+            background: #fff;
+            font-family: 'Outfit', sans-serif;
+            font-size: 20px;
+            font-weight: 800;
+            padding: 10px 10px;
+            border: 1px solid black;
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+
+    }
+    .new1-content{
+        padding-left: 100px;
+    }
+    span{
+        color: black;
+        font-weight: 500;
+    }
+    p{
+        color: #353A44;
+        font-family: 'Jost', sans-serif;
+        font-size: 16px;
+    }
+    .footer-down{
+        position: relative;
+        .f-img{
+            position: absolute;
+            top: 0%;
+            left: 18%;
+        }
+        form{
+            position: relative;
+            input{
+                padding: 10px 100px;
+                border-radius: 30px;
+                -webkit-border-radius: 30px;
+                -moz-border-radius: 30px;
+                -ms-border-radius: 30px;
+                -o-border-radius: 30px;
+            }
+            button{
+                position: absolute;
+                top: 10%;
+                right: 36%;
+                padding: 5px 20px;
+                background: #FF4C60;
+                color: aliceblue;
+                border-radius: 30px;
+                -webkit-border-radius: 30px;
+                -moz-border-radius: 30px;
+                -ms-border-radius: 30px;
+                -o-border-radius: 30px;
+             }
+        }
+        p{
+            font-size: 16px;
+            color: #353A44;
+            font-family: 'Jost', sans-serif;
+            line-height: 32px;
+        }
+    }
+
+}
+

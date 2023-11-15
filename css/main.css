@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1400px;
+  }
+}
+li {
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+body {
+  background-color: #54cbca;
+}
+
+.nav-custom {
+  background: #fff;
+  padding: 10px 50px;
+  border: 1px solid black;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+nav {
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+}
+nav ul li {
+  margin-left: 20px;
+}
+nav ul li i {
+  font-size: 20px;
+  color: #4942E4;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.custom-a {
+  font-family: "Outfit", sans-serif;
+  font-size: 34px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.custom-p {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  color: #353A44;
+}
+
+#big_cart .main .left {
+  background: #F0F0FF;
+  padding: 50px 30px;
+  border: 1px solid black;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+#big_cart .main .left .content-img img {
+  border: 1px solid black;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+#big_cart .main .left p {
+  font-family: "Jost", sans-serif;
+  font-size: 14px;
+  color: #353A44;
+}
+#big_cart .main .left p span {
+  background: #fff;
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+#big_cart .main .left .low a {
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: black;
+  background: #fff;
+  text-decoration: none;
+  padding: 10px 30px;
+  border: 1px solid black;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+#big_cart .main .right {
+  position: relative;
+  background: #FFFACD;
+  padding: 20px 30px;
+  border: 1px solid black;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+#big_cart .main .right img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+#big_cart .main .right .right-tittle {
+  position: absolute;
+  top: -10%;
+  left: 6%;
+  background: #fff;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 10px 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+#big_cart .main .right h4 {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+#big_cart .main .right p {
+  font-family: "Jost", sans-serif;
+  font-size: 14px;
+  color: #353A44;
+  margin-top: 10px;
+}
+#big_cart .main .right .social i {
+  font-size: 16px;
+  color: #9336B4;
+}
+
+.new1 {
+  position: relative;
+  top: -40%;
+  right: 0%;
+}
+
+.new1-content p i {
+  background: #fff;
+  font-size: 21px;
+  color: #4942E4;
+  padding: 5px 5px;
+  border: 1px solid black;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.new1-content p span {
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Outfit", sans-serif;
+}
+
+footer {
+  position: relative;
+  background-color: #FFFACD;
+  padding: 100px 0px;
+  margin-top: 100px;
+  border-top: 1px solid black;
+}
+footer .right-title {
+  position: absolute;
+  top: -4%;
+  left: 45%;
+  background: #fff;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 10px 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+footer .right-title2 {
+  position: absolute;
+  top: -4%;
+  right: 25%;
+  background: #fff;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 10px 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+footer .new1-content {
+  padding-left: 100px;
+}
+footer span {
+  color: black;
+  font-weight: 500;
+}
+footer p {
+  color: #353A44;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+}
+footer .footer-down {
+  position: relative;
+}
+footer .footer-down .f-img {
+  position: absolute;
+  top: 0%;
+  left: 18%;
+}
+footer .footer-down form {
+  position: relative;
+}
+footer .footer-down form input {
+  padding: 10px 100px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+footer .footer-down form button {
+  position: absolute;
+  top: 10%;
+  right: 36%;
+  padding: 5px 20px;
+  background: #FF4C60;
+  color: aliceblue;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+footer .footer-down p {
+  font-size: 16px;
+  color: #353A44;
+  font-family: "Jost", sans-serif;
+  line-height: 32px;
+}/*# sourceMappingURL=main.css.map */

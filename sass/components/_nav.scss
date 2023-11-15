@@ -1,0 +1,37 @@
+body{
+    background-color: #54cbca;
+}
+
+
+.nav-custom{
+    background: #fff;
+    padding: 10px 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+nav{
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    ul{
+        li{
+            margin-left: 20px;
+            i{
+                font-size: 20px;
+                color: #4942E4;
+            }
+        }
+    }
+}
+
+.dropdown{
+    &:hover .dropdown-menu{
+        display: block;
+    }
+}
+
+
